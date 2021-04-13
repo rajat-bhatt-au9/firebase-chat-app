@@ -1,5 +1,5 @@
 body {
-  background-color: #94a3c0;
+  background-color: #282c34;
 }
 
 .App {
@@ -26,7 +26,6 @@ body {
 }
 
 .App section {
-  background-image: url("https://cdn.pixabay.com/photo/2017/08/30/12/23/black-2696879_960_720.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,10 +100,7 @@ button:disabled {
 
 .sign-in {
   color: #282c34;
-  background: rgb(56, 56, 143);
-  border: 2px solid rgb(245, 50, 50);
-  border-radius: 2px;
-  color: aliceblue;
+  background: white;
   max-width: 400px;
   margin: 0 auto;
 }
@@ -141,7 +137,7 @@ p {
   align-self: flex-end;
 }
 .received p {
-  background: #42c94d;
+  background: #e5e5ea;
   color: black;
 }
 
